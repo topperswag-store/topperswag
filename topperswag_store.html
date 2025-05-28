@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TopperSwag Store</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    .hero {
+      padding: 2rem;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: #fff;
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .product {
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+    }
+    .product img {
+      width: 100%;
+    }
+    .product-info {
+      padding: 1rem;
+    }
+    .product-info h3 {
+      margin: 0.5rem 0;
+    }
+    .product-info p {
+      color: #777;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #000;
+      color: #fff;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TopperSwag</h1>
+    <p>Study Hard. Look Cool.</p>
+  </header>
+  <section class="hero">
+    <h2>Welcome to TopperSwag!</h2>
+    <p>Premium motivational merch for toppers in the making 💪</p>
+  </section>
+  <section class="products">
+    <div class="product">
+      <img src="topper-loading.jpg" alt="Topper Loading T-shirt">
+      <div class="product-info">
+        <h3>Topper Loading... 78%</h3>
+        <p>₹599.00</p>
+        <a class="btn" href="#">Buy Now</a>
+      </div>
+    </div>
+    <div class="product">
+      <img src="study-repeat.jpg" alt="Study Repeat T-shirt">
+      <div class="product-info">
+        <h3>Study. Sleep. Repeat.</h3>
+        <p>₹599.00</p>
+        <a class="btn" href="#">Buy Now</a>
+      </div>
+    </div>
+    <div class="product">
+      <img src="hustle-mode.jpg" alt="Hustle Mode T-shirt">
+      <div class="product-info">
+        <h3>Hustle Mode: ON</h3>
+        <p>₹599.00</p>
+        <a class="btn" href="#">Buy Now</a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 TopperSwag. All rights reserved.</p>
+  </footer>
+</body>
+</html>
